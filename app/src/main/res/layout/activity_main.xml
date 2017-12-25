@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Android_Web通信"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="下载网络图像"
+        android:onClick="downLoadImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="下载网络图像并保存到SD卡"
+        android:onClick="downLoadImage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="下载网络图像并到保存安装目录"
+        android:onClick="downLoadImage3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/img"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"
+        android:layout_width="80sp"
+        android:layout_height="80sp" />
+</LinearLayout>
